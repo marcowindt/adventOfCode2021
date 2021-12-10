@@ -9,7 +9,7 @@ import day6.main as day6
 import day7.main as day7
 import day8.main as day8
 import day9.main as day9
-# import day10.main as day10
+import day10.main as day10
 # import day11.main as day11
 # import day12.main as day12
 # import day13.main as day13
