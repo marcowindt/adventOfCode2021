@@ -19,7 +19,7 @@ import day16.main as day16
 import day17.main as day17
 import day18.main as day18
 import day19.main as day19
-# import day20.main as day20
+import day20.main as day20
 # import day21.main as day21
 # import day22.main as day22
 # import day23.main as day23
@@ -28,7 +28,7 @@ import day19.main as day19
 
 if __name__ == '__main__':
     print("🎄 Advent of Code 2021 🎄")
-    for i in range(1, 20):
+    for i in range(1, 21):
         print("=== DAY {} ===".format(i))
         print("{} secs".format(
             timeit.timeit("day{}.solution()".format(i), setup="from __main__ import day{}".format(i), number=1)))
